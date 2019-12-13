@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "602410ae-1c37-4307-a54c-60a6ae72d407",
+		"name": "Qantas_Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST_REQUEST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-rapidapi-host",
+						"value": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com ",
+						"type": "text"
+					},
+					{
+						"key": "x-rapidapi-key",
+						"value": "f47389ff3amsh3ab97c1f0a37991p13d893jsnb802b61e1f7e",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "inboundDate",
+							"value": "2019-12-20",
+							"type": "text"
+						},
+						{
+							"key": "cabinClass",
+							"value": "business",
+							"type": "text"
+						},
+						{
+							"key": "children",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "infants",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "AU",
+							"type": "text"
+						},
+						{
+							"key": "currency",
+							"value": "AUD",
+							"type": "text"
+						},
+						{
+							"key": "locale",
+							"value": "en-AU",
+							"type": "text"
+						},
+						{
+							"key": "originPlace",
+							"value": "MEL-sky",
+							"type": "text"
+						},
+						{
+							"key": "destinationPlace",
+							"value": "SYD-sky",
+							"type": "text"
+						},
+						{
+							"key": "outboundDate",
+							"value": "2019-12-15",
+							"type": "text"
+						},
+						{
+							"key": "adults",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/v1.0",
+					"protocol": "https",
+					"host": [
+						"skyscanner-skyscanner-flight-search-v1",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"apiservices",
+						"pricing",
+						"v1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_REQUEST",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-rapidapi-host",
+						"value": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
+						"type": "text"
+					},
+					{
+						"key": "x-rapidapi-key",
+						"value": "f47389ff3amsh3ab97c1f0a37991p13d893jsnb802b61e1f7e",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/uk2/v1.0/ab0541fa-0d4d-45f0-a5a0-e69c2d41852e",
+					"protocol": "https",
+					"host": [
+						"skyscanner-skyscanner-flight-search-v1",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"apiservices",
+						"pricing",
+						"uk2",
+						"v1.0",
+						"ab0541fa-0d4d-45f0-a5a0-e69c2d41852e"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
